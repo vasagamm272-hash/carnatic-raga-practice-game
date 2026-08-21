@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnatic Raga Practice Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎵 Carnatic Raga Practice Game</h1>
+            <p class="subtitle">Master the Ragas through Interactive Learning</p>
+        </header>
+
+        <nav class="menu">
+            <button id="learnBtn" class="menu-btn">📚 Learn Ragas</button>
+            <button id="identifyBtn" class="menu-btn">🎯 Identify Raga</button>
+            <button id="practiceBtn" class="menu-btn">🎼 Practice Swaras</button>
+            <button id="quizBtn" class="menu-btn">❓ Quiz</button>
+        </nav>
+
+        <div id="gameArea" class="game-area">
+            <!-- Content will be dynamically loaded here -->
+        </div>
+
+        <div id="stats" class="stats">
+            <p>Score: <span id="score">0</span></p>
+            <p>Level: <span id="level">Beginner</span></p>
+            <p>Streak: <span id="streak">0</span></p>
+        </div>
+    </div>
+
+    <script src="data/ragas.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
